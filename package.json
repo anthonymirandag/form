@@ -1,0 +1,25 @@
+{
+  "name": "krowdyform-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "graphql": "APPLICATION=graphql nodemon --exec 'node -r dotenv/config' index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "apollo-server": "^2.14.2",
+    "apollo-server-errors": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^6.0.8",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "signale": "^1.4.0"
+  }
+}
